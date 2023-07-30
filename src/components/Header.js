@@ -56,9 +56,7 @@ const Header = () => {
           </NavLink>
         </li>
         <li id="login-btn">
-          <NavLink style={active} to="/login">
-            Log in
-          </NavLink>
+          <NavLink to="/login">Log in</NavLink>
         </li>
         <li>
           <NavLink to="cart">

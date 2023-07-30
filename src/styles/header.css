@@ -38,14 +38,16 @@
 #login-btn {
   padding: 2px 5px 2px 5px;
   border: 2px solid black;
+  background-color: black;
+  color: #ffe0b6;
   border-radius: 5px;
   font-size: 0.9rem;
   transition: ease-in-out 0.2s;
 }
 
 #login-btn:hover {
-  background-color: black;
-  color: white;
+  background-color: #ffe0b6;
+  color: black;
 }
 .cart-icon {
   font-size: 2.5rem;
