@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/mendy-mart/static/css/main.aa02c0bb.css",
-    "main.js": "/mendy-mart/static/js/main.bb9ab59c.js",
+    "main.js": "/mendy-mart/static/js/main.dd638b9d.js",
     "index.html": "/mendy-mart/index.html",
     "main.aa02c0bb.css.map": "/mendy-mart/static/css/main.aa02c0bb.css.map",
-    "main.bb9ab59c.js.map": "/mendy-mart/static/js/main.bb9ab59c.js.map"
+    "main.dd638b9d.js.map": "/mendy-mart/static/js/main.dd638b9d.js.map"
   },
   "entrypoints": [
     "static/css/main.aa02c0bb.css",
-    "static/js/main.bb9ab59c.js"
+    "static/js/main.dd638b9d.js"
   ]
 }
