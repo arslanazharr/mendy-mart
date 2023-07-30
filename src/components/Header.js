@@ -21,7 +21,7 @@ const Header = () => {
     <div className="header-main">
       <div className="header-outter">
         <div className="header-logo">
-          <NavLink to="/">Mendy Mart</NavLink>
+          <NavLink to="/">Mendy's Mart</NavLink>
         </div>
         <div className="mobile-navbar-btn">
           <RxCross1

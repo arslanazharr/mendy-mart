@@ -8,7 +8,7 @@ const HeroSection = (props) => {
     <div className="hero-main">
       <div className="hero-intro">
         <span>Welcome to</span>
-        <h1>Mendy Mart</h1>
+        <h1>Mendy's Mart</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus
           possimus sapiente magni sunt nulla numquam similique aut totam quod
