@@ -1,0 +1,125 @@
+.header-main {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffe0b6;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.header-logo {
+  font-size: 1.5rem;
+}
+
+.header-logo a {
+  font-family: "Borel", cursive;
+}
+
+.header-logo a:hover {
+  color: rgb(113, 113, 113);
+  transition: ease-in-out 0.3s;
+}
+
+.header-nav {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.header-nav li {
+  list-style: none;
+  text-transform: uppercase;
+}
+
+.header-nav li:hover {
+  color: rgb(113, 113, 113);
+  transition: ease-in-out 0.3s;
+}
+
+#login-btn {
+  padding: 2px 5px 2px 5px;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  transition: ease-in-out 0.2s;
+}
+
+#login-btn:hover {
+  background-color: black;
+  color: white;
+}
+.cart-icon {
+  font-size: 2.5rem;
+}
+
+.cart-count {
+  border-radius: 50%;
+  background-color: black;
+  font-size: 10px;
+  font-weight: bold;
+  color: #ffe0b6;
+  width: 18px;
+  height: 18px;
+  line-height: 20px;
+  text-align: center;
+  position: relative;
+  right: 14px;
+}
+
+.cart-btn:hover .cart-count {
+  transition: ease-in-out 0.3s;
+  background-color: rgb(113, 113, 113);
+}
+
+.nav-toggles {
+  font-size: 1.8rem;
+}
+.nav-toggles:hover {
+  color: rgb(113, 113, 113);
+  transition: ease-in-out 0.3s;
+}
+
+.header-outter .mobile-navbar-btn {
+  display: none;
+}
+
+@media (min-width: 677px) and (max-width: 992px) {
+  .header-main {
+    flex-direction: column;
+  }
+  .header-nav {
+    padding: 0.5rem;
+  }
+  .header-logo {
+    padding: 0.5rem;
+  }
+}
+
+@media (min-width: 0) and (max-width: 676px) {
+  .header-main {
+    flex-direction: column;
+  }
+
+  .header-nav {
+    display: none;
+  }
+
+  .header-logo {
+    justify-content: start;
+    width: 100%;
+  }
+
+  .header-nav.show {
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .header-outter {
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+  .header-outter .mobile-navbar-btn {
+    display: flex;
+  }
+}
