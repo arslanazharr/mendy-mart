@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mendy-mart/static/css/main.d8cc0059.css",
+    "main.js": "/mendy-mart/static/js/main.d7412fdf.js",
+    "index.html": "/mendy-mart/index.html",
+    "main.d8cc0059.css.map": "/mendy-mart/static/css/main.d8cc0059.css.map",
+    "main.d7412fdf.js.map": "/mendy-mart/static/js/main.d7412fdf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8cc0059.css",
+    "static/js/main.d7412fdf.js"
+  ]
+}
