@@ -1,13 +1,24 @@
 {
   "files": {
-    "main.css": "/mendy-mart/static/css/main.aa02c0bb.css",
-    "main.js": "/mendy-mart/static/js/main.dd638b9d.js",
+    "main.css": "/mendy-mart/static/css/main.8feac587.css",
+    "main.js": "/mendy-mart/static/js/main.a04d2e54.js",
+    "static/media/home.jpg": "/mendy-mart/static/media/home.61546dade0c36c6cb631.jpg",
+    "static/media/about.jpg": "/mendy-mart/static/media/about.70827fe261dc37db974a.jpg",
+    "static/media/unilever.png": "/mendy-mart/static/media/unilever.bd44114a793669dbc654.png",
+    "static/media/tags.png": "/mendy-mart/static/media/tags.966df2ebb6c204a904a8.png",
+    "static/media/beats-pill.png": "/mendy-mart/static/media/beats-pill.70da116f4b6dd2bb1ae0.png",
+    "static/media/ea-sports.png": "/mendy-mart/static/media/ea-sports.c7603591a45f6dc7e14c.png",
+    "static/media/adwords.png": "/mendy-mart/static/media/adwords.48f31ec2b1d0d538db43.png",
+    "static/media/bridgestone.png": "/mendy-mart/static/media/bridgestone.deebad0b2d76c776eda2.png",
+    "static/media/unity.png": "/mendy-mart/static/media/unity.476c154c9907b53486f5.png",
+    "static/media/adidas.png": "/mendy-mart/static/media/adidas.4e3eb9d93af9b08f0dc3.png",
+    "static/media/mozy.png": "/mendy-mart/static/media/mozy.11e6efcbbbc5fce0fe30.png",
     "index.html": "/mendy-mart/index.html",
-    "main.aa02c0bb.css.map": "/mendy-mart/static/css/main.aa02c0bb.css.map",
-    "main.dd638b9d.js.map": "/mendy-mart/static/js/main.dd638b9d.js.map"
+    "main.8feac587.css.map": "/mendy-mart/static/css/main.8feac587.css.map",
+    "main.a04d2e54.js.map": "/mendy-mart/static/js/main.a04d2e54.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa02c0bb.css",
-    "static/js/main.dd638b9d.js"
+    "static/css/main.8feac587.css",
+    "static/js/main.a04d2e54.js"
   ]
 }
