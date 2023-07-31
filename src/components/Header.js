@@ -7,7 +7,8 @@ import { LiaBarsSolid } from "react-icons/lia";
 
 const active = ({ isActive }) => {
   return {
-    color: isActive ? "rgb(113, 113, 113)" : "black",
+    fontWeight: isActive ? "bold" : "",
+    // color: isActive ? "rgb(113, 113, 113)" : "",
   };
 };
 

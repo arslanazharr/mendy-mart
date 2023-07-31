@@ -33,7 +33,7 @@
 .hero-intro button:hover {
   background-color: black;
   color: white;
-  transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.2s;
 }
 .hero-intro button:active {
   background-color: rgb(113, 113, 113);
