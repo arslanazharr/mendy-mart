@@ -1,32 +1,35 @@
-import { LiaShippingFastSolid } from "react-icons/lia";
+import { TbTruckDelivery } from "react-icons/tb";
 import { GrSecure } from "react-icons/gr";
 import { BiSupport } from "react-icons/bi";
 import { GiReceiveMoney } from "react-icons/gi";
 import "../styles/services.css";
+import "../../src/index.css";
 
 const Services = () => {
   return (
-    <div className="services-main">
-      <div className="service1 service">
-        <LiaShippingFastSolid />
-        <p>FREE AND FAST SHIPPING</p>
-      </div>
-      <div className="service2 service">
-        <div className="service-2">
-          <GrSecure />
-          <p>SECURE CHECKOUT</p>
+    <section>
+      <div className="services-main">
+        <div className="service1 service">
+          <TbTruckDelivery className="service-icon" />
+          <p>FREE AND FAST SHIPPING</p>
         </div>
-        <div className="services-02">
-          <BiSupport />
-          <p>SECURE CHECKOUT</p>
+        <div className="service2">
+          <div className="service-2">
+            <BiSupport className="service-icon" />
+            <p>SECURE CHECKOUT</p>
+          </div>
+          <div className="service-2">
+            <GrSecure className="service-icon" />
+            <p>SECURE CHECKOUT</p>
+          </div>
         </div>
-      </div>
 
-      <div className="service3 service">
-        <GiReceiveMoney />
-        <p>EASY RETURNS</p>
+        <div className="service3 service">
+          <GiReceiveMoney className="service-icon" />
+          <p>EASY RETURNS</p>
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 

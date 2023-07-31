@@ -1,0 +1,34 @@
+.marquee {
+  position: relative;
+  background-color: #fff5e6;
+  overflow: hidden;
+  width: 100%;
+  margin: 80px 0 80px 0;
+}
+
+.marquee h1 {
+  font-weight: bold;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.logos-container {
+  display: flex;
+  gap: 7rem;
+  padding: 3rem 0;
+  animation: move-logos 60s linear infinite;
+}
+
+.logos-container img {
+  width: 70px;
+  height: auto;
+}
+
+@keyframes move-logos {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(calc(-70px * 24 - 7rem * 23));
+  }
+}
