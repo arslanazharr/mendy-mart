@@ -1,4 +1,3 @@
-import React from "react";
 import "../styles/marquee.css";
 import b1 from "../images/brands/3m.png";
 import b2 from "../images/brands/adwords.png";

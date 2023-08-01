@@ -1,7 +1,5 @@
-import React from "react";
 import { NavLink } from "react-router-dom";
 import "../styles/heroSection.css";
-import "../../src/index.css";
 
 const HeroSection = (props) => {
   const { img } = props.myData;

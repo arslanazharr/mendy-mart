@@ -1,0 +1,25 @@
+.error404 {
+  color: rgb(113, 113, 113);
+  font-size: xx-large;
+}
+
+.backButton {
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: small;
+  color: black;
+}
+
+.backButton:hover {
+  background-color: black;
+  color: white;
+  transition: ease-in-out 0.2s;
+}
+
+.backButton:active {
+  background-color: rgb(113, 113, 113);
+  color: white;
+  border: 1px solid rgb(113, 113, 113);
+}

@@ -1,55 +1,77 @@
-.contact-main h1 {
-  text-align: center;
+.contact-section h1 {
   font-size: xx-large;
-  font-weight: bold;
-  padding: 1rem;
+  text-align: center;
 }
 
+.contact-main {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.contact-details {
+  margin-top: 40px;
+  width: 40%;
+}
+
+.contact-details h2 {
+  font-size: x-large;
+  margin-bottom: 20px;
+}
+
+.contact-details- h3 {
+  font-size: larger;
+  margin-bottom: 5px;
+  color: rgb(113, 113, 113);
+}
+
+.contact-details- p {
+  margin-bottom: 40px;
+}
+.contact-form {
+  background-color: #ffe0b6;
+  padding: 2rem;
+  margin-top: 40px;
+}
 .contact-form form {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
-  margin-top: 80px;
-}
-
-.contact-form {
-  display: flex;
-  justify-content: center;
+  gap: 1rem;
 }
 
 .contact-form form input,
 textarea {
-  padding: 1rem;
-  background-color: #ffe0b6;
-  border: 2px solid rgb(113, 113, 113);
+  background-color: #fff5e6;
+  padding: 0.8rem;
 }
 
-.contact-main-- button {
+.contact-form-btn {
   padding: 8px;
-  border: 2px solid black;
+  border: 1px solid black;
   border-radius: 5px;
   margin-top: 10px;
   font-size: small;
 }
 
-.contact-main-- button:hover {
+.contact-form-btn:hover {
   background-color: black;
   color: white;
   transition: ease-in-out 0.2s;
 }
-.contact-main-- button:active {
+
+.contact-form-btn:active {
   background-color: rgb(113, 113, 113);
   color: white;
-  border: 2px solid rgb(113, 113, 113);
+  border: 1px solid rgb(113, 113, 113);
 }
 
-.contact-main-- {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.contact-form-btn {
-  display: flex;
-  justify-content: start;
+@media (max-width: 676px) {
+  .contact-main {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .contact-details {
+    width: auto;
+  }
 }

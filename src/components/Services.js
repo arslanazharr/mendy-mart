@@ -3,7 +3,6 @@ import { GrSecure } from "react-icons/gr";
 import { BiSupport } from "react-icons/bi";
 import { GiReceiveMoney } from "react-icons/gi";
 import "../styles/services.css";
-import "../../src/index.css";
 
 const Services = () => {
   return (

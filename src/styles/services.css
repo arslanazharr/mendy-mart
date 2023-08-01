@@ -16,7 +16,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #ffe0b6;
+  background-color: #fff5e6;
   gap: 1rem;
   padding: 3rem;
   height: 212px;
@@ -48,7 +48,7 @@
 .service-2 {
   display: flex;
   align-items: center;
-  background-color: #ffe0b6;
+  background-color: #fff5e6;
   padding: 1.5rem;
   height: 98px;
   gap: 1rem;
