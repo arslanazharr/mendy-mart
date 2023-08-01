@@ -32,6 +32,7 @@
   background-color: #ffe0b6;
   padding: 2rem;
   margin-top: 40px;
+  border-radius: 5px;
 }
 .contact-form form {
   display: flex;
@@ -43,6 +44,7 @@
 textarea {
   background-color: #fff5e6;
   padding: 0.8rem;
+  border-radius: 5px;
 }
 
 .contact-form-btn {
@@ -51,18 +53,18 @@ textarea {
   border-radius: 5px;
   margin-top: 10px;
   font-size: small;
+  transition: ease-in-out 0.2s;
 }
 
 .contact-form-btn:hover {
   background-color: black;
   color: white;
-  transition: ease-in-out 0.2s;
 }
 
 .contact-form-btn:active {
-  background-color: rgb(113, 113, 113);
+  background-color: rgba(113, 113, 113, 0.692);
   color: white;
-  border: 1px solid rgb(113, 113, 113);
+  border: 1px solid rgba(113, 113, 113, 0.692);
 }
 
 @media (max-width: 676px) {

@@ -12,11 +12,11 @@
 
 .header-logo a {
   font-family: "Borel", cursive;
+  transition: ease-in-out 0.2s;
 }
 
 .header-logo a:hover {
   color: rgb(113, 113, 113);
-  transition: ease-in-out 0.3s;
 }
 
 .header-nav {
@@ -28,11 +28,11 @@
 .header-nav li {
   list-style: none;
   text-transform: uppercase;
+  transition: ease-in-out 0.2s !important;
 }
 
 .header-nav li:hover {
   color: rgb(113, 113, 113);
-  transition: ease-in-out 0.3s !important;
 }
 
 #login-btn {
@@ -65,19 +65,18 @@
   text-align: center;
   position: relative;
   right: 14px;
+  transition: ease-in-out 0.2s;
 }
-
 .cart-btn:hover .cart-count {
-  transition: ease-in-out 0.3s;
   background-color: rgb(113, 113, 113);
 }
 
 .nav-toggles {
   font-size: 1.8rem;
+  transition: ease-in-out 0.2s;
 }
 .nav-toggles:hover {
   color: rgb(113, 113, 113);
-  transition: ease-in-out 0.3s;
 }
 
 .header-outter .mobile-navbar-btn {

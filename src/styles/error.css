@@ -19,7 +19,7 @@
 }
 
 .backButton:active {
-  background-color: rgb(113, 113, 113);
+  background-color: rgba(113, 113, 113, 0.692);
   color: white;
-  border: 1px solid rgb(113, 113, 113);
+  border: 1px solid rgba(113, 113, 113, 0.692);
 }

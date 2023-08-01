@@ -26,20 +26,20 @@
 
 .hero-intro button {
   padding: 8px;
-  border: 2px solid black;
+  border: 1px solid black;
   border-radius: 5px;
   margin-top: 10px;
   font-size: small;
+  transition: ease-in-out 0.2s;
 }
 .hero-intro button:hover {
   background-color: black;
   color: white;
-  transition: ease-in-out 0.2s;
 }
 .hero-intro button:active {
-  background-color: rgb(113, 113, 113);
+  background-color: rgba(113, 113, 113, 0.692);
   color: white;
-  border: 2px solid rgb(113, 113, 113);
+  border: 1px solid rgba(113, 113, 113, 0.692);
 }
 
 .hero-img img {
@@ -60,7 +60,7 @@
     width: auto;
   }
   .hero-img img {
-    box-shadow: 40px -40px 0px 5px #ffe0b6;
+    box-shadow: 40px -40px 0px 5px #fff5e6;
     width: auto;
   }
 }
