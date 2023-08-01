@@ -1,8 +1,9 @@
 .footer-main {
   display: flex;
   justify-content: space-between;
-  padding: 1.5rem;
+  padding: 1.5rem 8rem 1.5rem 8rem;
   background-color: #ffe0b6;
+  flex-wrap: wrap;
 }
 
 .footer-logo-social {
@@ -81,4 +82,32 @@
 .footer-news-letter-form button:active {
   background-color: rgba(113, 113, 113, 0.692);
   color: white;
+}
+
+@media (min-width: 677px) and (max-width: 992px) {
+  .footer-main {
+    padding: 1.5rem;
+  }
+}
+
+@media (min-width: 359px) and (max-width: 676px) {
+  .footer-main {
+    padding: 1.5rem;
+    justify-content: left;
+    gap: 2rem;
+  }
+
+  .footer-quick-links {
+    width: 35%;
+  }
+  .footer-news-letter-form {
+    width: 100%;
+  }
+}
+@media (min-width: 0) and (max-width: 359px) {
+  .footer-main {
+    padding: 1.5rem;
+    justify-content: left;
+    gap: 2rem;
+  }
 }

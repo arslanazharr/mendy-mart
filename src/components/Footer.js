@@ -35,7 +35,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-news-letter-form">
-        <h1>GET THE LATEST DEAL UPDATES</h1>
+        <h1>GET THE LATEST TRENDS FIRST</h1>
         <input
           type="email"
           name="email"
