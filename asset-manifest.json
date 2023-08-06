@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mendy-mart/static/css/main.961748e6.css",
-    "main.js": "/mendy-mart/static/js/main.27e4c9bd.js",
+    "main.css": "/mendy-mart/static/css/main.f18ce0e2.css",
+    "main.js": "/mendy-mart/static/js/main.2bb7974f.js",
     "static/media/home.jpg": "/mendy-mart/static/media/home.61546dade0c36c6cb631.jpg",
     "static/media/about.jpg": "/mendy-mart/static/media/about.70827fe261dc37db974a.jpg",
     "static/media/unilever.png": "/mendy-mart/static/media/unilever.bd44114a793669dbc654.png",
@@ -14,11 +14,11 @@
     "static/media/adidas.png": "/mendy-mart/static/media/adidas.4e3eb9d93af9b08f0dc3.png",
     "static/media/mozy.png": "/mendy-mart/static/media/mozy.11e6efcbbbc5fce0fe30.png",
     "index.html": "/mendy-mart/index.html",
-    "main.961748e6.css.map": "/mendy-mart/static/css/main.961748e6.css.map",
-    "main.27e4c9bd.js.map": "/mendy-mart/static/js/main.27e4c9bd.js.map"
+    "main.f18ce0e2.css.map": "/mendy-mart/static/css/main.f18ce0e2.css.map",
+    "main.2bb7974f.js.map": "/mendy-mart/static/js/main.2bb7974f.js.map"
   },
   "entrypoints": [
-    "static/css/main.961748e6.css",
-    "static/js/main.27e4c9bd.js"
+    "static/css/main.f18ce0e2.css",
+    "static/js/main.2bb7974f.js"
   ]
 }
