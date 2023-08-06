@@ -9,6 +9,7 @@ import { PiArrowsClockwiseBold } from "react-icons/pi";
 import { RiSecurePaymentLine } from "react-icons/ri";
 import { GiPayMoney } from "react-icons/gi";
 import "./styles/singleProduct.css";
+import Star from "./components/Star";
 
 const API = "https://api.pujakaitem.com/api/products";
 
@@ -46,10 +47,7 @@ const SingleProduct = () => {
         </div>
         <div className="single-prd-info">
           <h1>{name}</h1>
-          <div className="single-prd-feedback">
-            <p>{stars}</p>
-            <p>({reviews} reviews)</p>
-          </div>
+          <Star stars={stars} reviews={reviews} />
           <div className="single-prd-mrp">
             <p>MRP:</p>
             <del>
