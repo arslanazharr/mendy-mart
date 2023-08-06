@@ -19,7 +19,7 @@ const Star = ({ stars, reviews }) => {
     );
   });
   return (
-    <div className="flex items-center">
+    <div className="flex items-center mb-2">
       {starRating}
       <p>{reviews} customer reviews</p>
     </div>
