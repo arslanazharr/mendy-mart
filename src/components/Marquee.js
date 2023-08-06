@@ -1,22 +1,22 @@
 import "../styles/marquee.css";
-import b1 from "../images/brands/3m.png";
-import b2 from "../images/brands/adwords.png";
-import b3 from "../images/brands/adidas.png";
-import b4 from "../images/brands/beats-pill.png";
-import b5 from "../images/brands/bridgestone.png";
-import b6 from "../images/brands/docker.png";
-import b7 from "../images/brands/ea-sports.png";
-import b8 from "../images/brands/mozy.png";
-import b9 from "../images/brands/nike.png";
-import b10 from "../images/brands/tags.png";
-import b11 from "../images/brands/unilever.png";
-import b12 from "../images/brands/unity.png";
+import b1 from "../assets/brands/3m.png";
+import b2 from "../assets/brands/adwords.png";
+import b3 from "../assets/brands/adidas.png";
+import b4 from "../assets/brands/beats-pill.png";
+import b5 from "../assets/brands/bridgestone.png";
+import b6 from "../assets/brands/docker.png";
+import b7 from "../assets/brands/ea-sports.png";
+import b8 from "../assets/brands/mozy.png";
+import b9 from "../assets/brands/nike.png";
+import b10 from "../assets/brands/tags.png";
+import b11 from "../assets/brands/unilever.png";
+import b12 from "../assets/brands/unity.png";
 
 const Marquee = () => {
   return (
-    <div class="marquee">
+    <div className="marquee">
       <h1>Trusted By 1000+ Companies</h1>
-      <div class="logos-container">
+      <div className="logos-container">
         <img src={b1} alt="" />
         <img src={b2} alt="" />
         <img src={b3} alt="" />

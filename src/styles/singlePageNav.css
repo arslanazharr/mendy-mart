@@ -1,0 +1,10 @@
+.single-page-nav {
+  padding: 1.5rem;
+}
+
+.single-page-nav span {
+  font-weight: bold;
+}
+.single-page-nav a {
+  color: rgb(113, 113, 113);
+}

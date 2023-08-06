@@ -1,0 +1,135 @@
+.single-prd-main {
+  display: flex;
+  padding: 3rem 10rem 3rem 10rem;
+  gap: 1rem;
+}
+
+.single-prd-img {
+  width: 50%;
+}
+
+.single-prd-info {
+  width: 50%;
+}
+
+.single-prd-info h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.single-prd-feedback {
+  display: flex;
+  margin-bottom: 5px;
+  gap: 8px;
+}
+
+.single-prd-mrp {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 5px;
+}
+
+.single-prd-mrp p {
+  font-weight: bold;
+}
+
+.single-prd-real-price {
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+  margin-bottom: 5px;
+}
+
+.single-prd-real-price span {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.single-prd-icons {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0 20px 0;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.icons-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.icons-div p {
+  text-align: center;
+}
+
+.icons-div .icon {
+  font-size: 30px;
+}
+
+.single-prd-other-info span {
+  font-weight: bold;
+}
+
+.single-prd-other-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.add-to-cart-btn {
+  padding: 8px 20px 8px 20px;
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  margin-top: 20px;
+  font-size: small;
+  transition: ease-in-out 0.2s;
+}
+
+.add-to-cart-btn:hover {
+  background-color: rgb(113, 113, 113);
+  color: white;
+}
+
+.add-to-cart-btn:active {
+  background-color: rgba(113, 113, 113, 0.692);
+  color: white;
+}
+
+.owl-dots {
+  margin-top: 10px !important;
+}
+
+@media (min-width: 359px) and (max-width: 992px) {
+  .single-prd-main {
+    flex-direction: column;
+    padding: 1.5rem;
+  }
+  .single-prd-info {
+    width: auto;
+  }
+}
+@media (max-width: 359px) {
+  .single-prd-main {
+    flex-direction: column;
+    padding: 1.5rem;
+  }
+  .single-prd-img {
+    width: auto;
+  }
+
+  .single-prd-info {
+    width: auto;
+  }
+  .single-prd-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 20px 0 20px 0;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+}

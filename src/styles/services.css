@@ -1,14 +1,9 @@
-/* .services-sec {
-  background-color: #fff5e6;
-} */
-
 .services-main {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  /* padding: 1.5rem; */
-  /* margin-top: 5rem; */
+  margin: 80px 0 80px 0;
 }
 
 .service {
@@ -21,7 +16,7 @@
   padding: 3rem;
   height: 212px;
   border-radius: 1rem;
-  width: 20%;
+  width: 23%;
 }
 
 .service:hover {
@@ -65,7 +60,8 @@
   .services-main {
     display: flex;
     flex-direction: column;
-    margin-top: 0;
+    /* margin-top: 0; */
+    padding: 1.5rem;
   }
 
   .service {
@@ -91,7 +87,8 @@
 @media (max-width: 480px) {
   .services-main {
     flex-direction: column;
-    margin-top: 0;
+
+    padding: 1.5rem;
   }
   .service {
     width: 100%;
@@ -105,7 +102,7 @@
   }
   .service2 {
     width: 100%;
-
+    /* margin-top: 0; */
     text-align: center;
   }
 }

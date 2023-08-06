@@ -14,13 +14,13 @@ const Footer = () => {
           <h1>Mendy's Mart</h1>
         </NavLink>
         <div className="footer-social-links">
-          <a href="">
+          <a href="instagram.com">
             <AiOutlineInstagram />
           </a>
-          <a href="">
+          <a href="facebook.com">
             <AiOutlineFacebook />
           </a>
-          <a href="">
+          <a href="twitter.com">
             <AiOutlineTwitter />
           </a>
         </div>
